@@ -1,0 +1,4 @@
+Stive si cozi
+	Stivele și cozile sunt tipuri abstracte de date cu doua discipline diferite date de ordinea in care se acceseaza si elimina elementele. Într-o stivă, elementul șters este cel mai recent inserat — stiva implementează principiul ultimul sosit, primul servit (LIFO). Analogic pt coada...
+               Diferența dintre cele două structuri constă în modul de implementare: coada folosește principiul primul sosit, primul servit (FIFO). Stivele utilizează operațiile push (inserare) și pop (ștergere), în timp ce cozile folosesc enqueue (inserare) și dequeue (ștergere).
+                Complexitatea algoritmilor de baza folositi pe acestea au o complexitate constanta O(1) (in caz optim), cu exceptia cautarii care este liniara, O(n), programul fiind nevoit sa ajunga pana la sfarsitul multimii pentru a putea gasi elementul.
